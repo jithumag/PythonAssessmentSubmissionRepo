@@ -35,7 +35,7 @@ def search_repositories(query):
     else:
         return None
 
-# View for repository data 
+# View for save repository data 
 def save_repository(request):
     if request.method == 'POST':
         name = request.POST.get('name')
