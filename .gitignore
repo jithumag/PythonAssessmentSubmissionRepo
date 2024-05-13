@@ -1,0 +1,26 @@
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore database files
+*.sqlite3
+
+# Ignore static files
+staticfiles/
+
+# Ignore media files
+media/
+
+# Ignore secret keys file
+secret_key.txt
+
+# Ignore IDE and editor files
+.vscode/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
